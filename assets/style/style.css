@@ -12,7 +12,7 @@
 }
 
 body {
-    width: 95vw;
+    width: 100vw;
     font: normal 20pt Arial;
     background-color: #7b2cbf;
 }
@@ -79,6 +79,10 @@ a {
 
 b {
     color: rgb(155, 61, 155);
+}
+
+.sale {
+    color: red;
 }
 
 @media screen and (min-width: 480px) {
