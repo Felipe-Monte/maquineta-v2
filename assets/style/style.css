@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte2: 'Mukta', sans-serif;
+}
+
+body {
+    width: 95vw;
+    font: normal 20pt Arial;
+    background-color: #7b2cbf;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+}
+
+h2 {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+section {
+    font-size: 16pt;
+    background-color: white;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    padding: 2%;
+    font-family: var(--fonte2);
+}
+
+div#div1 {
+    padding: 15px;
+}
+
+input#txtn1 {
+    width: 80px;
+    font-size: 19px;
+}
+
+input#botao {
+    width: 85px;
+    font-size: 19px;
+    text-align: center;
+}
+
+input#botao2 {
+    padding: auto;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 12pt;
+    padding: 10px;
+}
+
+a {
+    color: white;
+}
+
+b {
+    color: rgb(155, 61, 155);
+}
+
+@media screen and (min-width: 480px) {
+    section {
+        width: 360px;
+    }
+}
