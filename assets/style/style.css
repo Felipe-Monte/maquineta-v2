@@ -12,7 +12,8 @@
 }
 
 body {
-    width: 100vw;
+    width: 95vw;
+    height: 95vh;
     font: normal 20pt Arial;
     background-color: #7b2cbf;
 }
@@ -24,7 +25,7 @@ header {
 
 header h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 h2 {
@@ -79,6 +80,10 @@ a {
 
 b {
     color: rgb(155, 61, 155);
+}
+
+p {
+    font-size: 20px;
 }
 
 .sale {

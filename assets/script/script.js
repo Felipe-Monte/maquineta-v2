@@ -48,14 +48,15 @@ function myScope() {
         res.innerHTML += `<p><b>12X:</b> ${((n + n12) / 12).toFixed(2)} = R$:${n + n12} ${createB(n12)}</p>`
     }
 
+    function render(n) {
+
+    }
+
     function createB(b) {
         return `<b class="sale"> &uarr;${b}</b>`
     }
 
-
-
 }
-
 myScope()
 
 
