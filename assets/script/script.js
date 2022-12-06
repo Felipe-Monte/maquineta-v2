@@ -1,6 +1,5 @@
 
-function myScope() {
-
+(function () {
     const btn = document.getElementById('botao')
     const res = document.querySelector('#res')
     res.innerHTML = ''
@@ -33,7 +32,7 @@ function myScope() {
         let n11 = Number((12.29 / 100 * n).toFixed(1))
         let n12 = Number((13.13 / 100 * n).toFixed(1))
 
-        res.innerHTML += `<p>Para receber R$:<b>${n}</b> ficaria:</p>`
+        res.innerHTML += `<p>PARA RECEBER R$:<b>${n}</b> FICARIA:</p>`
         res.innerHTML += `<p><b>1X:</b> ${n} = R$:${n + n1} ${createB(n1)}</p>`
         res.innerHTML += `<p><b>2X:</b> ${((n + n2) / 2).toFixed(2)} = R$:${n + n2} ${createB(n2)}</p>`
         res.innerHTML += `<p><b>3X:</b> ${((n + n3) / 3).toFixed(2)} = R$:${n + n3} ${createB(n3)}</p>`
@@ -48,16 +47,14 @@ function myScope() {
         res.innerHTML += `<p><b>12X:</b> ${((n + n12) / 12).toFixed(2)} = R$:${n + n12} ${createB(n12)}</p>`
     }
 
-    function render(n) {
-
-    }
-
     function createB(b) {
         return `<b class="sale"> &uarr;${b}</b>`
     }
+})()
 
-}
-myScope()
+
+
+
 
 
 
