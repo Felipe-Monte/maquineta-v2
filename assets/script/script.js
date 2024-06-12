@@ -27,9 +27,7 @@ function renderRes(n) {
     let calc = Number(((fee / 100) * n).toFixed(1));
     let sum = (calc + n).toFixed(2);
 
-    res.innerHTML += `<p><b>${index + 1}X:</b> ${(sum / (index + 1)).toFixed(
-      2
-    )} = R$:${sum} ${createB(calc)}</p>`;
+    res.innerHTML += `<p><b>${index + 1}X:</b> ${(sum / (index + 1)).toFixed(2)} = R$:${sum} ${createB(calc)}</p>`;
   });
 
   function createB(b) {
